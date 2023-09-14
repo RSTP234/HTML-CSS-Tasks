@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Task-6</title>
+    <style>
+      form {
+        width: 30%;
+        /* border: 1px solid black; */
+        margin: auto;
+      }
+      img {
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+      }
+      .details {
+        font-weight: bold;
+      }
+      input {
+        width: 95%;
+        line-height: 200%;
+      }
+      .footer {
+        width: 100%;
+        background-color: lightgrey;
+        border: 1.5px solid rgba(128, 128, 128, 0.5);
+      }
+      .footer div {
+        display: inline-block;
+        width: 49%;
+      }
+      .foot {
+        text-align: right;
+      }
+      .foot a {
+        color: black;
+      }
+      button {
+        border: 0;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgba(255, 0, 0, 0.8);
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <img src="login.jpeg" /><br />
+      <label class="details">Username</label><br />
+      <input type="text" placeholder="Enter Username" /><br /><br />
+      <label class="details">Password</label><br />
+      <input type="text" placeholder="Enter Password" /><br /><br />
+      <input
+        type="button"
+        style="
+          background-color: limegreen;
+          border: 2px solid limegreen;
+          width: 100%;
+          color: white;
+          font-weight: bold;
+        "
+        value="Login"
+      /><br /><br />
+      <input type="checkbox" style="width: auto" value="Login" />
+      <label>Remember me</label><br /><br />
+      <div class="footer">
+        <br />
+        <div>
+          <button>Cancel</button>
+        </div>
+        <div class="foot">
+          <a href="#">Forgot Password?</a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
