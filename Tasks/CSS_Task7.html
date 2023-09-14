@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: deeppink;
+      }
+      form {
+        display: flex;
+        width: 30%;
+        margin: auto;
+        background-color: rgb(127, 14, 74);
+        padding: 10px;
+      }
+      table {
+        width: 90%;
+        margin: auto;
+        color: white;
+        /* border: 1px solid black; */
+      }
+      td {
+        padding: 5px;
+      }
+      input {
+        width: 70%;
+      }
+      textarea {
+        width: 70%;
+      }
+      button {
+        width: 80%;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 5px;
+        border: 0;
+        line-height: 180%;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" placeholder="your name" /></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" placeholder="your email" /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td>Phone Number:</td>
+          <td><input type="tel" /></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <label>Male:</label>
+            <input name="Gender" type="radio" style="width: auto" />
+            <label>Female:</label>
+            <input type="radio" name="Gender" style="width: auto" />
+            <label>Other:</label>
+            <input name="Gender" type="radio" style="width: auto" />
+          </td>
+        </tr>
+        <tr>
+          <td>Language</td>
+          <td>
+            <select>
+              <option>Select language</option>
+              <option value="English">English</option>
+              <option value="Tamil">Tamil</option>
+              <option value="Hindi">Hindi</option>
+              <option value="German">German</option>
+              <option value="Otders">Otders</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Zip Code:</td>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td>About:</td>
+          <td><textarea placeholder="Write about yourself..."></textarea></td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <button>Register</button>
+          </th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
